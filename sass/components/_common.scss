@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section {
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.flexbox {
+	display: flex;
+}
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.block {
+	display: block;
+}
+.title-section {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.1666;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	margin-bottom: 50px;
+	margin: 0;
+	margin-bottom: 50px;
+}

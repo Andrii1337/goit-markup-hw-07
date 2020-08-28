@@ -1,0 +1,133 @@
+.footer-bg {
+	background: #2f303a;
+	padding-bottom: 60px;
+
+	& .flexbox {
+		justify-content: space-between;
+	}
+}
+
+.footer-left-side {
+	padding-top: 60px;
+	width: calc(25% - 30px);
+	padding-right: 25px;
+}
+.white-logo {
+	color: $white;
+}
+.non-italic {
+	font-style: normal;
+}
+.footer-adress {
+	margin-top: 20px;
+}
+.footer-adress-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.adrs {
+	color: $white;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+}
+.contacts-footer {
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
+.social-link {
+	padding-top: 72px;
+	width: calc(25% - 30px);
+	padding-right: 50px;
+}
+.social-list {
+	margin-top: 20px;
+}
+.social-list-item:not(:last-child) {
+	margin-right: 10px;
+}
+.join-in {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.142;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $white;
+}
+.ftr-social {
+	color: $white;
+}
+.subscribe-email {
+	padding-top: 72px;
+	width: 50%;
+}
+.subscribe {
+	color: $white;
+	font-size: 14px;
+	line-height: 1.142;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.social-icon-link-footer {
+	display: inline-flex;
+	width: 44px;
+	height: 44px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	margin-right: 10px;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		background-color: $accent-color;
+		border-radius: 50%;
+	}
+}
+.social-icon-footer {
+	fill: $white;
+	justify-content: center;
+}
+.social-icon-link-footer:not(:last-child) {
+	margin-right: 10px;
+}
+.form-mail {
+	width: 360px;
+	height: 50px;
+	background-color: #2f303a;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	margin: 20px 12px 0 0;
+	border-radius: 4px;
+	padding: 15px 0 15px 15px;
+	color: $white;
+}
+.subscribe-button {
+	border: none;
+	background-color: transparent;
+	background: $accent-color;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	width: 200px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 1.875;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 0.06em;
+	color: $white;
+	cursor: pointer;
+
+	& .send-icon {
+		margin-left: 10px;
+	}
+}
+
+.send-icon {
+	fill: $white;
+}
